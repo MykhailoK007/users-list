@@ -11,7 +11,6 @@ const showUserFormModal = (props:{showUserForm:boolean, toggleUserForm:React.Dis
 const App : React.FC = () => {
   const [showUserForm, toggleUserForm] = useState<boolean>(false);
   const [userList, updateUserList] = useState<object>([]);
-  // TODO: 1.UserList 2.UserForm
   return (
     <div>
       <div className='add-user' role='button' onClick={() => showUserFormModal({showUserForm,toggleUserForm })}>
