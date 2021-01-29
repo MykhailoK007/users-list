@@ -8,7 +8,7 @@ const showUserFormModal = (props:{showUserForm:boolean, toggleUserForm:React.Dis
   toggleUserForm(!showUserForm);
 };
 
-const App :React.FC = () => {
+const App : React.FC = () => {
   const [showUserForm, toggleUserForm] = useState<boolean>(false);
   const [userList, updateUserList] = useState<object>([]);
   // TODO: 1.UserList 2.UserForm
