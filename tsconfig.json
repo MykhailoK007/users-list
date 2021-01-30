@@ -7,7 +7,7 @@
     "outDir": "./dist/",
     "noImplicitAny": true,
     "target": "es5",
-    "jsx": "react",
+    "jsx": "react-jsx",
     "allowJs": true,
     "sourceMap": true,
     "allowSyntheticDefaultImports": true,
@@ -16,11 +16,13 @@
     "resolveJsonModule": true,
     "experimentalDecorators": true,
     "baseUrl": ".",
-    "paths": {
-      "app/*": [
-        "./app/*"
-      ]
-    }
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "isolatedModules": true,
+    "noEmit": true
   },
   "include": [
     "src/**/*"
